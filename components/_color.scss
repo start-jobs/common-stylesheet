@@ -33,20 +33,20 @@ $red: (
 );
 
 $pink: (
-  "base":       #e91e63,
-  "lighten-5":  #fce4ec,
-  "lighten-4":  #f8bbd0,
-  "lighten-3":  #f48fb1,
-  "lighten-2":  #f06292,
-  "lighten-1":  #ec407a,
-  "darken-1":   #d81b60,
-  "darken-2":   #c2185b,
-  "darken-3":   #ad1457,
-  "darken-4":   #880e4f,
-  "accent-1":    #ff80ab,
-  "accent-2":    #ff4081,
-  "accent-3":    #f50057,
-  "accent-4":    #c51162
+  "base":       #FF3366,
+  "lighten-5":  lighten(#FF3366,25%),
+  "lighten-4":  lighten(#FF3366,20%),
+  "lighten-3":  lighten(#FF3366,15%),
+  "lighten-2":  lighten(#FF3366,10%),
+  "lighten-1":  lighten(#FF3366,5%),
+  "darken-1":   darken(#FF3366,5%),
+  "darken-2":   darken(#FF3366,10%),
+  "darken-3":   darken(#FF3366,15%),
+  "darken-4":   darken(#FF3366,20%),
+  "accent-1":   saturate(#FF3366,5%),
+  "accent-2":   saturate(#FF3366,10%),
+  "accent-3":   desaturate(#FF3366,5%),
+  "accent-4":   desaturate(#FF3366,10%)
 );
 
 $purple: (
@@ -101,20 +101,20 @@ $indigo: (
 );
 
 $blue: (
-  "base":       #2196F3,
-  "lighten-5":  #E3F2FD,
-  "lighten-4":  #BBDEFB,
-  "lighten-3":  #90CAF9,
-  "lighten-2":  #64B5F6,
-  "lighten-1":  #42A5F5,
-  "darken-1":   #1E88E5,
-  "darken-2":   #1976D2,
-  "darken-3":   #1565C0,
-  "darken-4":   #0D47A1,
-  "accent-1":    #82B1FF,
-  "accent-2":    #448AFF,
-  "accent-3":    #2979FF,
-  "accent-4":    #2962FF
+  "base":       #124EC2,
+  "lighten-5":  lighten(#124EC2,25%),
+  "lighten-4":  lighten(#124EC2,20%),
+  "lighten-3":  lighten(#124EC2,15%),
+  "lighten-2":  lighten(#124EC2,10%),
+  "lighten-1":  lighten(#124EC2,5%),
+  "darken-1":   darken(#124EC2,5%),
+  "darken-2":   darken(#124EC2,10%),
+  "darken-3":   darken(#124EC2,15%),
+  "darken-4":   darken(#124EC2,20%),
+  "accent-1":   saturate(#124EC2,5%),
+  "accent-2":   saturate(#124EC2,10%),
+  "accent-3":   desaturate(#124EC2,5%),
+  "accent-4":   desaturate(#124EC2,10%)
 );
 
 $light-blue: (
